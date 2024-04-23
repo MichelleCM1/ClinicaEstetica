@@ -1,26 +1,28 @@
 import { useState } from 'react'
+import Root from './routes';
 import './App.css'
 
 function App() {
-  const [nome, setNome] = useState('');
-  const [idade, setIdade] = useState('');
-  const [email, setEmail] = useState('');
-  const [historico, setHistorico] =useState('');
+  // const [nome, setNome] = useState('');
+  // const [idade, setIdade] = useState('');
+  // const [email, setEmail] = useState('');
+  // const [historico, setHistorico] =useState('');
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
+  // const handleSubmit = (e) => {
+  //   e.preventDefault();
 
-    console.log('Dados do paciente:', {nome, idade, email, historico});
+  //   console.log('Dados do paciente:', {nome, idade, email, historico});
 
-    setNome('');
-    setIdade('');
-    setEmail('');
-    setHistorico('');
-  };
+  //   setNome('');
+  //   setIdade('');
+  //   setEmail('');
+  //   setHistorico('');
+  // };
 
   return (
     <>
-      <div>
+    <Root></Root>
+      {/* <div>
       <h1>Cadastro do paciente</h1>
       <form onSubmit={handleSubmit}>
         <label>
@@ -36,13 +38,14 @@ function App() {
           <textarea value={historico} onChange={(e) => setHistorico(e.target.value)} />
         </label>
         <button type="submit"> Cadastrar</button>
+    
 
 
 
 
       </form>
       </div>
-     
+      */}
     </>
   )
 }
