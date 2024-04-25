@@ -20,23 +20,27 @@ function App() {
 
   return (
     <>
-      <div>
-      <h1>Cadastro do paciente</h1>
-      <form onSubmit={handleSubmit}>
+      <div id='barra'></div>
+      <div id='BlocoForm'>
+      <h1>Home Care</h1>
+      <form id='FormHomeCare' onSubmit={handleSubmit}>
         <label>
-          Nome:
-          <input type="text" value ={nome} onChange={(e) => setNome(e.target.value)} />
+          <input type="text" id='Nome' placeholder="Nome" value ={nome} onChange={(e) => setNome(e.target.value)} />
         </label>
         <label>
-          Email:
-          <input type="email" value={email} onChange={(e) => setEmail(e.target.value)} />
+          
+          <input type="Data"id='Data' placeholder="Data"  onChange={(e) => setEmail(e.target.value)} />
         </label>
         <label>
-          Historico:
-          <textarea value={historico} onChange={(e) => setHistorico(e.target.value)} />
+          <input type="text" id='Procd' placeholder='Procedimento'/>
         </label>
-        <button type="submit"> Cadastrar</button>
-
+        <label>
+            <input type="text" className="Ind" placeholder='Indicaçõens'/>
+        </label>
+        <div id="Botoens">
+        <button id="Enviar">Enviar</button>
+        <button id="Voltar">Voltar</button>
+        </div>
 
 
 

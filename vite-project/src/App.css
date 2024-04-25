@@ -1,42 +1,112 @@
+body{
+  background-color: #BFDACC;
+  font-family:Arial, Helvetica, sans-serif;
+
+}
+
+
 #root {
-  max-width: 1280px;
+  max-width: 1392px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+ 
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+#barra{
+  height: 100px;
+  background-color: #F2F2F2;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
+h1{
+  color: #496C5A;
+  font-size: 20px;
+  text-align:left;
+  left: 40px;
+  position: relative;
+}
+#BlocoForm{
+  width: 1392px;
+  height: 611px;
+  background-color: #F2F2F2;
+
+
+}
+#FormHomeCare{
+  display: block;
+  flex-direction: row;
+  flex-direction: column;
+
+  
   }
-  to {
-    transform: rotate(360deg);
-  }
+#Nome{
+  height: 32px;
+  margin-top: 25px;
+  width: 700px;
+  border-radius: 4px;
+  margin-right: 15px;
+  border: 0px;
+  box-shadow: 0px 0px 5px 0px  #888888;
+  position: relative;
+  right: 200px;
+ 
+}
+#Data{
+  width: 186px;
+  height: 32px;
+  margin-top: 25px;
+  border-radius: 4px;
+  border: 0px;
+  box-shadow: 0px 0px 5px 0px  #888888;
+  position: relative;
+  right: 200px;
+  
+}
+#Procd{
+  width: 854px;
+  height: 32px;
+  border-radius: 4px;
+  margin-top: 25px;
+  border: 0px;
+  box-shadow: 0px 0px 5px 0px  #888888;
+  position: relative;
+  right: 225px;
+ 
+}
+.Ind{
+  width: 1307px;
+  height: 300px;
+  border-radius: 4px;
+  margin-top: 25px;
+  border: 0px;
+  box-shadow: 0px 0px 5px 0px  #888888;
+  text-align-last: top;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
 
-.card {
-  padding: 2em;
+#Enviar{
+  color: #9C4E35;
+  background-color: #F8C4B4;
+  border: none;
+  width: 160px;
+  height: 42px;
+  margin-top: 15px;
+  margin-right: 25px;
+  font-size: 15px;
+  border-radius: 4px;
 }
+#Voltar{
+  color: #9C4E35;
+  background-color: #F8C4B4;
+  border: none;
+  width: 160px;
+  height: 42px;
+  font-size: 15px;
+  border-radius: 4px;
+}
+#Botoens{
+  position: relative;
+  left: 480px;
 
-.read-the-docs {
-  color: #888;
+
 }
