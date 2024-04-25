@@ -1,6 +1,5 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import Imagens from './assets/logoFigma1.png'
 
 import './App.css'
 
@@ -11,83 +10,50 @@ function App() {
   return (
 
     <>
-      <div id="logo">  
-   
-      </div>
-      <br /><br />
+      <div id="log" > <img id="logo" src={Imagens} /> </div>
+      <br />
 
-      <div id='tela1'>
+      <div id="client" ><h5>Cliente</h5></div>
 
-        <div><h3>Cliente</h3></div>
+      <form id="form">
+        
 
-        <section class="grid-coloumn grud-column 1">
+        <div ><input placeholder="Nome" type="text" name="name" id="name" /></div><br />
 
-          <div id='form1'>
+        <div ><input placeholder="CPF" type="number" name="cpf" id="cpf" /> </div><br /><br />
 
-            <form class="justify-itens ">
-              
-                <div class="name">
+        <div ><input placeholder="Endereço" type="text" name="eddress" id="eddress" /></div><br /><br />
 
-                  <input placeholder="Nome" type="text" name="name" id="name" />
-                  <br />
+        <div ><input placeholder="Numero" type="number" name="number" id="number" /></div> <br /><br />
 
-                  <input placeholder="CPF" type="number" name="cpf" id="cpf" />
-                  <br /><br />
+        <div ><input placeholder="CEP" type="number" name="cep" id="cep" /></div><br /><br />
 
-                </div>
+        <div ><input placeholder="Bairro" type="text" name="district" id="district" /></div><br /><br />
 
-                <div class="eddress">
+        <div ><input placeholder="Cidade" type="text" name="city" id="city" /></div> <br /><br />
 
-                  <input placeholder="Endereço" type="text" name="eddress" id="eddress" />
-                  <br /><br />
+        <div > <input placeholder="Estado" type="text" name="state" id="state" /></div> <br /><br />
+
+        <div ><input placeholder="e-mail" type="email" name="email" id="email" /></div><br /><br />
+
+        <div ><input placeholder="Contato" type="number" name="Contact" id="contact" /> </div> <br /><br />
+
+        <div ><input placeholder="Contato Emergência" type="number" name="Contactem" id="contactem" /> </div> 
 
 
-                  <input placeholder="Numero" type="number" name="number" id="number" />
-                  <br /><br />
+        <div class="button">
 
-                  <input placeholder="CEP" type="number" name="cep" id="cep" />
-                  <br /><br />
-                </div>
+          <button>Pesquisa</button>
+          <button>Cadastrar</button>
+          <button>Editar</button>
+          <button>Excluir</button>
+          <button>Histórico</button>
 
-                <div class="district">
+        </div>
+    
 
-                  <input placeholder="Bairro" type="text" name="district" id="district" />
-                  <br /><br />
+      </form >
 
-                  <input placeholder="Cidade" type="text" name="city" id="city" />
-                  <br /><br />
-
-                  <input placeholder="Estado" type="text" name="state" id="state" />
-                  <br /><br />
-                </div>
-
-                <div class="email">
-
-                  <input placeholder="e-mail" type="email" name="email" id="email" />
-                  <br /><br />
-
-                  <input placeholder="Contato" type="number" name="Contatct" id="contact" />
-                  <br /><br />
-
-                  <input placeholder="Contato de Emergencia" type="number" name="contactem" id="contactem" />
-                  <br /><br />
-
-                </div>
-
-                <section class="button">
-
-                  <button id="bt" >Pesquisa</button>
-                  <button id="bt" >Cadastrar</button>
-                  <button id="bt" >Editar</button>
-                  <button id="bt" >Excluir</button>
-                  <button id="bt" >Histórico</button>
-
-                </section>
-            
-            </form>
-          </div>
-        </section>
-      </div>
     </>
   )
 }

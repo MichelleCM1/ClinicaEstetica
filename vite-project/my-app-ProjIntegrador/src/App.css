@@ -1,81 +1,193 @@
-*{
+* {
   margin: 0%;
-    padding: 0;
-    background-color: #BFDACC;
+  padding: 0;
+  background-color: #BFDACC;
 }
 
-#logo{
-
+#log {
   background-color: #F2F2F2;
-  width: 80%;
-  margin: 20px 30px 0px 200px;
-  height: 80px;
+  margin: 10px 10px 10px 10px;
+
 }
 
-#tela1{
-  
-  width: 1500px;
-  height: 590px;
-}
-
-#form1{ 
+#logo {
   background-color: #F2F2F2;
-  margin: 10px 0px 0px 230px;
-  display: flex;
-  height: 500px;
-  align-items: center;
-  justify-content: center;
-  display: grid;
 
 }
 
-.name{
+
+form {
   background-color: #F2F2F2;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2, 40px);
-
-
+  margin: 10px 10px 10px 10px;
 }
 
-.eddress{
+
+
+#client {
   background-color: #F2F2F2;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr 1fr);
-  grid-template-rows: repeat(2, 40px);
+  background: #F2F2F2;
+  font-size: x-large;
 
 
 }
 
-.district{
+
+
+#name {
   background-color: #F2F2F2;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr 1fr);
-  grid-template-rows: repeat(2, 40px);
-
-
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
 }
 
-.email{
+
+
+
+#cpf {
   background-color: #F2F2F2;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr 1fr);
-  grid-template-rows: repeat(2, 40px);
-
-
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
 }
+
+
+
+
+#eddress {
+  background-color: #F2F2F2;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+
+
+#number{
+  background-color: #F2F2F2;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+
+#cep{
+  background-color: #F2F2F2;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+
+#district {
+  background-color: #F2F2F2;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+
+
+
+#city{
+  background-color: #F2F2F2;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+
+#state{
+  background-color: #F2F2F2;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+
+
+#email {
+  background-color: #F2F2F2;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+
+
+#contact{
+  background-color: #F2F2F2;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+
+
+#contactem{
+  background-color: #F2F2F2;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
 
 button {
-  background-color: #F2F2F2;
   background: #F8C4B4;
   color: #8b5D4f;
-  border-style: outset;
-  border-color: #0066A2;
-  height: 30px;
-  width: 60px;
-  font: bold15px arial, sans-serif;
+  height: 40px;
+  width: 80px;
+  font: arial, sans-serif;
   text-shadow: none;
   float: right;
-  gap: 5px;
-}
+  border: 2px solid #8b5D4f;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 40px 20px;
+  cursor: pointer;
+  align-items: last baseline;
 
+}
